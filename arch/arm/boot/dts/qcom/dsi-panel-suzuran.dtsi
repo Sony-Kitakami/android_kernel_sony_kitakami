@@ -87,8 +87,8 @@
 		qcom,mdss-dsi-tx-eot-append;
 		qcom,mdss-dsi-lp11-init;
 		qcom,mdss-dsi-bl-min-level = <1>;
-		qcom,mdss-dsi-bl-max-level = <255>;
-		qcom,mdss-brightness-max-level = <255>;
+		qcom,mdss-dsi-bl-max-level = <4095>;
+		qcom,mdss-brightness-max-level = <4095>;
 		qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
 		qcom,qpnp-lab-limit-maximum-current = <200>;
 		qcom,qpnp-ibb-limit-maximum-current = <800>;
@@ -125,7 +125,7 @@
 		somc,mdss-dsi-uv-command = [06 01 00 00 00 00 01 DA
 			06 01 00 00 00 00 01 DB];
 		somc,mdss-dsi-uv-param-type = <4>;
-		somc,mdss-dsi-pcc-table-size = <225>;
+		somc,mdss-dsi-pcc-table-size = <4095>;
 		somc,mdss-dsi-pcc-table = <
 			0x00 0x01 0x38 0x3B 0x38 0x3B 0x4A80 0x6F00 0x8000
 			0x00 0x02 0x34 0x37 0x38 0x3B 0x4F00 0x6E80 0x8000
@@ -429,8 +429,8 @@
 		qcom,mdss-dsi-tx-eot-append;
 		qcom,mdss-dsi-lp11-init;
 		qcom,mdss-dsi-bl-min-level = <1>;
-		qcom,mdss-dsi-bl-max-level = <255>;
-		qcom,mdss-brightness-max-level = <255>;
+		qcom,mdss-dsi-bl-max-level = <4095>;
+		qcom,mdss-brightness-max-level = <4095>;
 		qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
 		qcom,qpnp-lab-limit-maximum-current = <200>;
 		qcom,qpnp-ibb-limit-maximum-current = <800>;
@@ -757,8 +757,8 @@
 		qcom,mdss-dsi-tx-eot-append;
 		qcom,mdss-dsi-lp11-init;
 		qcom,mdss-dsi-bl-min-level = <1>;
-		qcom,mdss-dsi-bl-max-level = <255>;
-		qcom,mdss-brightness-max-level = <255>;
+		qcom,mdss-dsi-bl-max-level = <4095>;
+		qcom,mdss-brightness-max-level = <4095>;
 		qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
 		qcom,qpnp-lab-limit-maximum-current = <200>;
 		qcom,qpnp-ibb-limit-maximum-current = <800>;
@@ -841,8 +841,8 @@
 		qcom,mdss-dsi-tx-eot-append;
 		qcom,mdss-dsi-lp11-init;
 		qcom,mdss-dsi-bl-min-level = <1>;
-		qcom,mdss-dsi-bl-max-level = <255>;
-		qcom,mdss-brightness-max-level = <255>;
+		qcom,mdss-dsi-bl-max-level = <4095>;
+		qcom,mdss-brightness-max-level = <4095>;
 		qcom,mdss-dsi-bl-pmic-control-type = "bl_ctrl_wled";
 		qcom,qpnp-lab-limit-maximum-current = <200>;
 		qcom,qpnp-ibb-limit-maximum-current = <800>;
